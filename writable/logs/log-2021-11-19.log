@@ -1,0 +1,17 @@
+CRITICAL - 2021-11-19 20:06:48 --> The framework needs the following extension(s) installed and loaded: curl, intl.
+#0 C:\Users\Samuel M\OneDrive - Cantacom\Área de Trabalho\CURSOS\PROJETOS\APICodeIgniter\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 C:\Users\Samuel M\OneDrive - Cantacom\Área de Trabalho\CURSOS\PROJETOS\APICodeIgniter\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\Samuel M\OneDrive - Cantacom\Área de Trabalho\CURSOS\PROJETOS\APICodeIgniter\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\Samuel M\OneDrive - Cantacom\Área de Trabalho\CURSOS\PROJETOS\APICodeIgniter\spark(45): require('C:\\Users\\Samuel...')
+#4 {main}
+CRITICAL - 2021-11-19 14:12:44 --> There is no data to insert.
+#0 C:\Users\Samuel M\OneDrive - Cantacom\Área de Trabalho\CURSOS\PROJETOS\APICodeIgniter\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+#1 C:\Users\Samuel M\OneDrive - Cantacom\Área de Trabalho\CURSOS\PROJETOS\APICodeIgniter\system\BaseModel.php(704): CodeIgniter\BaseModel->transformDataToArray()
+#2 C:\Users\Samuel M\OneDrive - Cantacom\Área de Trabalho\CURSOS\PROJETOS\APICodeIgniter\system\Model.php(620): CodeIgniter\BaseModel->insert()
+#3 C:\Users\Samuel M\OneDrive - Cantacom\Área de Trabalho\CURSOS\PROJETOS\APICodeIgniter\app\Controllers\Livros.php(39): CodeIgniter\Model->insert()
+#4 C:\Users\Samuel M\OneDrive - Cantacom\Área de Trabalho\CURSOS\PROJETOS\APICodeIgniter\system\CodeIgniter.php(824): App\Controllers\Livros->create()
+#5 C:\Users\Samuel M\OneDrive - Cantacom\Área de Trabalho\CURSOS\PROJETOS\APICodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#6 C:\Users\Samuel M\OneDrive - Cantacom\Área de Trabalho\CURSOS\PROJETOS\APICodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 C:\Users\Samuel M\OneDrive - Cantacom\Área de Trabalho\CURSOS\PROJETOS\APICodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\Samuel M\OneDrive - Cantacom\Área de Trabalho\CURSOS\PROJETOS\APICodeIgniter\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Samuel...')
+#9 {main}
